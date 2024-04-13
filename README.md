@@ -3,7 +3,9 @@ PROBLEM STATEMENT
   1)False Congestion Notification 
   2)Flat Rate Reduction
   3)Recovery ; same linear pattern
-  
+
+  ![image](https://github.com/abinaya77/congestion-control-algorithm-for-VANET/assets/106723283/4a24bfa6-9525-47dc-9fd6-d2391ee5d2f7)
+
   
 PROPOSED WORK:
 The problem in other TCP is that it cannot identify whether the congestion is due to traffic or network errors. when some data is sent from the host to the server ,a piece of data have to wait a long time before it reaches the receiver and for the acknowledgement to come back . Due to delay in acknowledgement ,congestion is notified where  other TCP ‘s flatly reduces the sending rate by half without considering the TCP flows growth rate for both most utilized and least utilized TCP flows.
